@@ -45,6 +45,7 @@ chrome.storage.sync.get('trail', function (obj) {
             item.style.top = String(curY) + "px";
             item.style.width = String(width) + "px";
             item.style.height = String(height) + "px";
+            item.style.zIndex = "10";
             item.style.backgroundColor = String(curColor);
             setTimeout(function(){item.style.opacity = '0';}, 500);
             document.body.appendChild(item);

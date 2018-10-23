@@ -34,6 +34,7 @@ document.getElementById('googleTrail').addEventListener('click', googleTrail);
 document.getElementById('trail-none').addEventListener('click', trailNone);
 document.getElementById('size-slider').addEventListener('change',trailSize);
 document.getElementById("trail-dot").addEventListener('click', trailDot);
+document.getElementById("heavyTrail").addEventListener('click', heavyTrail);
 //id
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("default").addEventListener('click', select, true);
@@ -65,6 +66,9 @@ function trailNone(){
 }
 function googleTrail(){
     chrome.storage.sync.set({'trail': 'google'})
+}
+function heavyTrail(){
+    chrome.storage.sync.set({'trail': 'heavy'})
 }
 
 function trailDot () {
