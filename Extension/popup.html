@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="imgur.min.css" rel="stylesheet" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Options</title>
+
+    <link rel="stylesheet" href="resources/icon.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="resources/material.teal-blue.min.css">
+    <script defer src="resources/material.min.js"></script>
+
+</head>
+<body style="width:475px;">
+<!-- Simple header with fixed tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Options</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens.  !hiding in small screens has been removed -->
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="helpEmail">Help Email</a>
+                <a class="mdl-navigation__link" id="default">Reset Cursor</a>
+                <a class="mdl-navigation__link" id="fb" style="background-color: rgb(68,138,255)"><img
+                        src="resources/facebook-box.png"></a></nav>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#fixed-tab-5" class="mdl-layout__tab" id="tab5">Home</a>
+            <a href="#fixed-tab-1" class="mdl-layout__tab is-active" id="tab1">Cursors</a>
+            <a href="#fixed-tab-4" class="mdl-layout__tab" id="tab4">Trail</a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab" id="tab2">URL</a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab" id="tab3">Upload</a>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Links</span>
+        <nav class="mdl-navigation">
+            <a id="infoLink" class="mdl-navigation__link" href="">Information</a>
+            <a class="mdl-navigation__link" id="upLink" href="">Imgur Upload</a>
+            <a class="mdl-navigation__link" id="fb2" href="">Facebook Page</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+            <div class="page-content">
+                <!-- Simple header with scrollable tabs. -->
+                <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                    <header class="mdl-layout__header">
+                        <!-- Tabs mdl-layout--large-screen-only -->
+                        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab is-active">Featured</a>
+                            <a href="#scroll-tab-2" id="colors" class="mdl-layout__tab">Colors</a>
+                            <a href="#scroll-tab-3" id="animals" class="mdl-layout__tab">Animals</a>
+                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab">Overwatch</a>
+                            <a href="#scroll-tab-5" id="emoji" class="mdl-layout__tab">Emoji</a>
+                            <a href="#scroll-tab-6" id="extra" class="mdl-layout__tab mdl-layout--small-screen-only">Extra</a>
+
+                            <a href="#scroll-tab-7" class="mdl-layout__tab mdl-layout--large-screen-only">Food</a>
+                        </div>
+                    </header>
+                    <main class="mdl-layout__content">
+                        <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                            <div class="page-content">
+                                <table>
+                                    <tbody id="contentCur">
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/light-darkblue.png">
+                                            <br>
+                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                    id="light-darkblue">Blue
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/pink-gradient.png">
+                                            <br>
+                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                    id="pink-gradient">Pink
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/green-graident.png">
+                                            <br>
+                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                    id="green-graident">Green
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/violet-red.png">
+                                            <br>
+                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                    id="violet-red">Hue
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/rainbow.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    type="button" id="rainbow">Rainbow
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/balloon.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="balloon">Balloon
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/hallo.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="hallo">Halloween
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/acorn.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="acorn">Acorn
+                                            </button>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/stripe.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="stripe">stripe
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/pokeball.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="pokeball">Pokeball
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/vader.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="vader">Darth<br>Vader
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/saber.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="saber">Lightsaber
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                            <div class="page-content">
+                                <table>
+                                    <tbody id="contentCol">
+                                    <tr>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/red.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="red">red
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/orange.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="orange">orange
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/yellow.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="yellow">yellow
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/lime.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="lime">lime
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/green.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="green">green
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/teal.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="teal">teal
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/light_blue.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="light_blue">light_blue
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/blue.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="blue">blue
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/indigo.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="indigo">indigo
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/purple.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="purple">purple
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/pink.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="pink">pink
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;" class="colours">
+                                            <img src="cursors/arrows/magenta.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="magenta">magenta
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--colors-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+                            <div class="page-content">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/fish.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="fish">Fish
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/cat.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="cat">Cat
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/pug.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="pug">Pug
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/rabbit.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="rabbit">Rabbit
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/bird.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="bird">Bird
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/pig.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="pig">Pig
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/beetle.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="beetle">Beetle
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/kangaroo.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="kangaroo">Kangaroo
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!--
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/sloth.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="sloth">Sloth
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/snake.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="snake">Snake
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/frog.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="frog">Frog
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/panda.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="panda">Panda
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--animals-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+                            <div class="page-content">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/tracer.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="tracer">Tracer
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/mcree.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="mcree">McCree
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/odette.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="odette">Odette
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/widow.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="widow">Widow
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/dva.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="dva">D.Va
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/mech.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="mech">Mech
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/genjiUlt.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="genjiUlt">Blade
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/genji.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="genji">Genji
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <!--
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/dvaUlt.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="dvaUlt">Bunny
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/genjiStars.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="genjiStars">Shurikens
+                                            </button>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/widowGuns.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="widowGuns">Rifle
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/widowUlt.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="widowUlt">Visor
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--Overwatch-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+                            <div class="page-content">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/joy.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="joy">Joy
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smile.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smile">Happy
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smileSweat.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smileSweat">Smile
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/silly.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="silly">Silly
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/heartEyes.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="heartEyes">Hearts
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/kiss.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="kiss">Kissing
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/smirk.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="smirk">Smirking
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/thinking.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="thinking">Thinking
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/sad.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="sad">Sad
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/fear.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="fear">Fear
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/angry.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="angry">Angry
+                                            </button>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <img src="cursors/arrows/glasses.png">
+                                            <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="glasses">Glasses
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--emoji-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+                            <div class="page-content"><h3>Want more cursors?</h3>
+                                <p>I can only fit so many in this tiny popup.
+                                    To access the rest of the cursors, go to the options menu where you can find
+                                    more</p>
+
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                        id="gotoOptions">Options Page
+                                </button>
+                            </div>
+                        </section><!--extra-->
+
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-7">
+                            <div class="page-content"></div>
+                        </section><!--food-->
+                        <div id="previews">
+                            <h4 class="demoing">You have chosen:</h4>
+                            <h4 class="demoing" id="chosen"></h4>
+                            <img class="demoing" id="preview" src="">
+                        </div>
+
+                    </main>
+                </div>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+            <div class="page-content">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="other">
+                    Submit Image
+                </button>
+                <br>
+                <textarea placeholder="Paste link to image here" id="other_input" name="other" rows="5"
+                          cols="38"></textarea>
+            </div>
+            <fieldset>
+                <legend>Important</legend>
+                To use this feature, first find an image that is smaller than 128x128 pixels. I suggest
+                using Google
+                Images and setting the "size" option to icon.
+                Click on the image and then click "View Image". Once you have opened the image in a new tab,
+                copy the
+                url of the page, and paste it into the box in the menu.
+            </fieldset>
+            <img src="resources/custom%20help.png">
+            <img src="resources/help2.png">
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+            <div class="page-content">
+                <div id="top">
+                    <h4>Image Uploader</h4>
+                    <p>This uses the Imgur javascript api to upload images, allowing you to use any image from your
+                        computer as a cursor.</p>
+                    <p>Images MUST be 128x128 pixels or smaller. At this stage, the code does not check for this! Do it
+                        yourself or it will not work</p>
+                    <h5>I did not make this. All the credit goes to <a href="https://github.com/pinceladasdaweb/imgur">pinceladasdaweb</a>.
+                    </h5>
+                </div>
+                <div class="dropzone"></div>
+                <p style="margin:10px;">If the image below is correct, click "Submit Image"</p>
+                <button style="margin:15px;" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                        id="other2">
+                    Submit Image
+                </button>
+                <!--<output id="outputImg" style="display: block;"></output>-->
+                <img id="uploadedImg" src="">
+                <script src="imgur.min.js"></script>
+                <script src="imgur.js"></script>
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-4">
+            <div class="page-content">
+                <h4 style="display: contents">Trails:</h4>
+                <div style=" border-color: #797777; border-style: dashed">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    style="line-height: normal; margin-top: 1em;" id="trail-none">
+                                No Trail
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <div style="width:14px; height:14px; border-radius: 7px; background: teal;"></div>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="trail-dot">
+                                Dot
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
+                    </div>
+
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <h5 style="display:contents">Color:</h5>
+                            <button id="#466eff" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #466eff">
+                            </button>
+                            <button id="#2dde2c" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #2dde2c">
+                            </button>
+                            <button id="#ff2723" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #ff2723">
+                            </button>
+                            <button id="#ff30e2" class="mdl-button mdl-js-button mdl-button--raised colorButton"
+                                    style="background-color: #ff30e2">
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--8-col-desktop"></div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <h5 style="display: contents;">Size:</h5>
+                            <div id="dotTrailDemo"
+                                 style="width:6px; height:6px; border-radius: 3px; background: teal; display:inline-block"></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--3-col">
+                            <input id="size-slider" class="mdl-slider mdl-js-slider" title="Size Slider" type="range"
+                                   min="4" max="30" value="6"
+                                   tabindex="0">
+                        </div>
+                    </div>
+                </div>
+                <output id="trail-result"></output>
+
+                <br>
+
+                <h4 style="display: contents">Premium Trails:</h4>
+                <div style=" border-color: #a67c00; border-style: dashed">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="googleTrail">Google
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                    id="heavyTrail">Heavy
+                            </button>
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
+                        <div class="mdl-cell mdl-cell--1-col">
+                        </div>
+                    </div>
+                </div>
+                <!-- Three Line List with secondary info and action -->
+                <ul class="demo-list-three mdl-list">
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>Googlicious</span>
+                            <span class="mdl-list__item-text-body">
+                                Googlicious mouse trail was developed by Praveen Puglia and is used under the MIT licence. You can find the source
+                                <a class="links" id="googleDetails" href="https://codepen.io/praveenpuglia/pen/wpduH">here</a>.
+                            </span>
+                        </span>
+                    </li>
+
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>Title</span>
+                            <span class="mdl-list__item-text-body">
+                                body
+                            </span>
+                        </span>
+                    </li>
+                    <li class="mdl-list__item mdl-list__item--three-line">
+                        <span class="mdl-list__item-primary-content">
+                            <span>title</span>
+                            <span class="mdl-list__item-text-body">
+                                body
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-5">
+            <div class="page-content">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#home-panel" class="mdl-tabs__tab is-active">Home</a>
+                        <a href="#updates-panel" class="mdl-tabs__tab">Updates</a>
+                        <a href="#help-panel" class="mdl-tabs__tab">Help</a>
+                    </div>
+                    <div class="mdl-tabs__panel is-active" id="home-panel">
+                        <h5>Custom Cursor</h5>
+                        <p>
+                            Custom Cursor chrome extension lets you personalize your browsing experience by changing
+                            your cursor icon.
+                        </p>
+                        <ul>
+                            <li>Over 50 different cursors to chose from</li>
+                            <li>Customizable trails that flow behind your cursor</li>
+                            <li>URL uploader allows you to use any compatible image on the internet</li>
+                            <li>Imgur image hosting allows you to upload an image from your computer</li>
+                        </ul>
+                    </div>
+                    <div class="mdl-tabs__panel" id="updates-panel">
+                        <!-- use h4 for large updates, h3 for small updates
+                         version number format: large feature . smaller feature . bug fix
+                         -->
+                        <h4>UPDATE 5.0.0</h4>
+                        <p>
+                            Added Cursor Trails!
+                            Also added the home tab, putting update log and help in the popup.
+                        </p>
+                        <h4>UPDATE 4.1.0</h4>
+                        <p>
+                            Added a large number of cursors, including:
+                            Overwatch, Animals, Emoji
+                        </p>
+                        <h4>UPDATE 4.0.0</h4>
+                        <p>
+                            A long overdue update to the UI. The menu is no longer confusing, your cursor selection will
+                            now autosave, and the image uploader is now part of the popup.
+                        </p>
+                        <h4>UPDATE 3.3.5</h4>
+                        <p>
+                            Update 3.3.5 introduces a lovely material design UI update, and an image uploader. The image
+                            uploader allows you to upload images from your computer and use them as cursors.
+                        </p>
+                        <h4>UPDATE 3.3.4</h4>
+                        <p>
+                            Update 3.3.4 is the spooky halloween update adding a new cursor with a spooky surprise and
+                            an update to the popup design.
+                            The main purpose of the design is to make way for several new designs to be added in a way
+                            that does not change the layout much.
+                            I hope you all like it, email me at bbusch.developer@gmail.com if you find any bugs, and
+                            have a spooky halloween!k “Edit Text” or double click me to add your own content and make
+                            changes to the font. I’m a great place for you to tell a story and let your users know a
+                            little more about you.
+                        </p>
+                        <h5>UPDATE 3.3.3</h5>
+                        <p>
+                            Update 3.3.3 features four new cursors as well as a redesign of the popup and this
+                            information page.
+                        </p>
+                        <h5>UPDATE 3.3.2</h5>
+                        <p>
+                            Added Google Analytics so that I can make better choices.
+                        </p>
+                        <h5>UPDATE 3.3.0</h5>
+                        <p>
+                            Added Pointer Feature. The cursor now changes to a pointer finger when hovering over a link
+                            or button.
+                        </p>
+                        <h5>UPDATE 3.2.0</h5>
+                        <p>
+                            In this update, I added the feature to change your cursor from within any webpage.
+                            Simply click on the icon in the top right-hand corner, and select your cursor from there.
+                        </p>
+
+                        <h5>UPDATE 3.0.0</h5>
+                        <p>
+                            In this new update, I have added the ability to choose from a selection of cursors, as well
+                            as the ability to use your own image.
+                            To select a cursor, right click on the icon in the top right, and select options. Next,
+                            select a cursor and if you are happy with it, press Save Changes.
+                            Also, I have removed my Fish Cursor extension and replaced it with a fish cursor option.
+                        </p>
+                    </div>
+                    <div class="mdl-tabs__panel" id="help-panel">
+                        <h6>My Email is: bbusch.developer@gmail.com</h6>
+                        <h4> I CAN'T SELECT A CURSOR! / MY CURSOR ISN'T SHOWING UP!</h4>
+                        <p>
+                            The cursor menu now auto-saves. To select a cursor, click the button below the cursor that
+                            you want, and your choice will automatically save.
+                            You can test your new cursor in the options menu, but it will not appear in your webpage
+                            straight away.
+                            Once you have selected your cursor, it is important that you refresh any tabs that you have
+                            open.
+                            Your new cursor will not appear until you have refreshed the tab.
+                            You only need to refresh tabs when changing the cursor, after that it will load
+                            automatically.
+                        </p>
+                        <h4>THE CURSOR IS NOT WORKING ON SOME SITES / TOOLBARS</h4>
+                        <p>
+                            Chrome extensions can do many things, including running code. This makes them a good way to
+                            hack users.
+                            To stop this from happening, chrome extensions are not allowed to work on anything that is
+                            not the webpage. This includes:
+                        <ul>
+                            <li>
+                                The bookmarks bar
+                            </li>
+                            <li>
+                                The URL bar
+                            </li>
+                            <li>
+                                The tabs bar and the window controls (minimize, maximize, close)
+                            </li>
+                            <li>
+                                The main scroll bar
+                            </li>
+                        </ul>
+                        <p>
+                            Most importantly​, the extension will not work on the Chrome Web Store or most of the chrome
+                            generated pages. Chrome generated pages are pages that begin with "chrome://" and contain
+                            important and private information such as your history or your settings.
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+<script src="popupScript.js"></script>
+
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab1">Pick a Cursor</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab2">Use a URL</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab4">Add a Trail</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab5">Helpful Information</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab3">Upload an Image</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="default">Reset the Cursos</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="fb">Facebook Page</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="featured">Featured Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="colors">Colored Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="animals">Animal Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="OW">Overwatch Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="emoji">Emoji Cursors</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="extra">More Cursors</div>
+</body>
+</html>
