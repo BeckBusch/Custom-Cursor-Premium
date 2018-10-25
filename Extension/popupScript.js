@@ -38,13 +38,12 @@ document.getElementById("heavyTrail").addEventListener('click', heavyTrail);
 //id
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("default").addEventListener('click', select, true);
+document.getElementById('trail-none-top').addEventListener('click', trailNone);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
 document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("other2").addEventListener('click', imgurUp);
-document.getElementById('fb').addEventListener('click', fbPage);
-document.getElementById('fb2').addEventListener('click', fbPage);
 //eventlisners end
 
 //functions start

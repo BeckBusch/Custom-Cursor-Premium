@@ -42,3 +42,6 @@ td {
     color: #fff;
     background: bottom right 15% no-repeat #46B6AC;
 }
+.cur_but {
+    text-align: center;
+}

@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="resources/icon.css">
     <link rel="stylesheet" href="popup.css">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-green.min.css" />
+    <link rel="stylesheet" href="resources/material.amber-green.min.css"/>
     <script defer src="resources/material.min.js"></script>
 
 </head>
@@ -23,16 +23,19 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens.  !hiding in small screens has been removed -->
             <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" id="trail-none-top" style="background-color: rgb(105,240,174)">Reset
+                    Trail</a>
                 <a class="mdl-navigation__link" id="default" style="background-color: rgb(105,240,174)">Reset Cursor</a>
-         </nav>
+            </nav>
         </div>
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
             <a href="#fixed-tab-5" class="mdl-layout__tab" id="tab5">Home</a>
             <a href="#fixed-tab-1" class="mdl-layout__tab is-active" id="tab1">Cursors</a>
             <a href="#fixed-tab-4" class="mdl-layout__tab" id="tab4">Trail</a>
-            <a href="#fixed-tab-2" class="mdl-layout__tab" id="tab2">URL</a>
-            <a href="#fixed-tab-3" class="mdl-layout__tab" id="tab3">Upload</a>
+            <a href="#fixed-tab-6" class="mdl-layout__tab mdl-layout--small-screen-only" id="options-tab">Options</a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab mdl-layout--large-screen-only" id="tab2">URL</a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab mdl-layout--large-screen-only" id="tab3">Upload</a>
         </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -51,44 +54,49 @@
                     <header class="mdl-layout__header">
                         <!-- Tabs mdl-layout--large-screen-only -->
                         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab is-active">Featured</a>
-                            <a href="#scroll-tab-2" id="colors" class="mdl-layout__tab">Colors</a>
-                            <a href="#scroll-tab-3" id="animals" class="mdl-layout__tab">Animals</a>
-                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab">Overwatch</a>
-                            <a href="#scroll-tab-5" id="emoji" class="mdl-layout__tab">Emoji</a>
-                            <a href="#scroll-tab-6" id="extra" class="mdl-layout__tab mdl-layout--small-screen-only">Extra</a>
+                            <a href="#scroll-tab-8" id="premium" class="mdl-layout__tab is-active">Premium</a>
+                            <a href="#scroll-tab-9" id="gems" class="mdl-layout__tab">Gems</a>
+                            <a href="#scroll-tab-10" id="gaming" class="mdl-layout__tab">Gaming</a>
+                            <a href="#scroll-tab-11" id="blank" class="mdl-layout__tab">Blank</a>
 
+
+                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab mdl-layout--large-screen-only">Free
+                                Featured</a>
+                            <a href="#scroll-tab-2" id="colors" class="mdl-layout__tab mdl-layout--large-screen-only">Colors</a>
+                            <a href="#scroll-tab-3" id="animals" class="mdl-layout__tab mdl-layout--large-screen-only">Animals</a>
+                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab mdl-layout--large-screen-only">Overwatch</a>
+                            <a href="#scroll-tab-5" id="emoji" class="mdl-layout__tab mdl-layout--large-screen-only">Emoji</a>
                             <a href="#scroll-tab-7" class="mdl-layout__tab mdl-layout--large-screen-only">Food</a>
                         </div>
                     </header>
                     <main class="mdl-layout__content">
-                        <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-1">
                             <div class="page-content">
                                 <table>
                                     <tbody id="contentCur">
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/light-darkblue.png">
                                             <br>
                                             <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                                     id="light-darkblue">Blue
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/pink-gradient.png">
                                             <br>
                                             <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                                     id="pink-gradient">Pink
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/green-graident.png">
                                             <br>
                                             <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
                                                     id="green-graident">Green
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/violet-red.png">
                                             <br>
                                             <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
@@ -97,28 +105,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/rainbow.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     type="button" id="rainbow">Rainbow
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/balloon.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="balloon">Balloon
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/hallo.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="hallo">Halloween
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/acorn.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -128,28 +136,28 @@
 
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/stripe.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="stripe">stripe
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/pokeball.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="pokeball">Pokeball
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/vader.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="vader">Darth<br>Vader
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/saber.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -166,28 +174,28 @@
                                 <table>
                                     <tbody id="contentCol">
                                     <tr>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/red.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="red">red
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/orange.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="orange">orange
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/yellow.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="yellow">yellow
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/lime.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -196,28 +204,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/green.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="green">green
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/teal.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="teal">teal
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/light_blue.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="light_blue">light_blue
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/blue.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -226,28 +234,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/indigo.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="indigo">indigo
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/purple.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="purple">purple
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/pink.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="pink">pink
                                             </button>
                                         </td>
-                                        <td style="text-align: center;" class="colours">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/magenta.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -264,28 +272,28 @@
                                 <table>
                                     <tbody>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/fish.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="fish">Fish
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/cat.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="cat">Cat
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/pug.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="pug">Pug
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/rabbit.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -294,28 +302,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/bird.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="bird">Bird
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/pig.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="pig">Pig
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/beetle.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="beetle">Beetle
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/kangaroo.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -325,28 +333,28 @@
                                     </tr>
                                     <!--
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/sloth.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="sloth">Sloth
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/snake.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="snake">Snake
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/frog.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="frog">Frog
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/panda.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -364,28 +372,28 @@
                                 <table>
                                     <tbody>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/tracer.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="tracer">Tracer
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/mcree.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="mcree">McCree
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/odette.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="odette">Odette
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/widow.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -394,28 +402,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/dva.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="dva">D.Va
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/mech.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="mech">Mech
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/genjiUlt.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="genjiUlt">Blade
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/genji.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -425,27 +433,27 @@
                                     </tr>
                                     <!--
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/dvaUlt.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="dvaUlt">Bunny
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/genjiStars.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="genjiStars">Shurikens
                                             </button>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/widowGuns.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="widowGuns">Rifle
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class=cur_but">
                                             <img src="cursors/arrows/widowUlt.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -463,28 +471,28 @@
                                 <table>
                                     <tbody>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/joy.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="joy">Joy
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/smile.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="smile">Happy
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/smileSweat.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="smileSweat">Smile
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/silly.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -493,28 +501,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/heartEyes.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="heartEyes">Hearts
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/kiss.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="kiss">Kissing
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/smirk.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="smirk">Smirking
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/thinking.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -523,28 +531,28 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/sad.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="sad">Sad
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/fear.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="fear">Fear
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/angry.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
                                                     id="angry">Angry
                                             </button>
                                         </td>
-                                        <td style="text-align: center;">
+                                        <td class="cur_but">
                                             <img src="cursors/arrows/glasses.png">
                                             <br>
                                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
@@ -556,27 +564,95 @@
                                 </table>
                             </div>
                         </section><!--emoji-->
-                        <section class="mdl-layout__tab-panel" id="scroll-tab-6">
-                            <div class="page-content"><h3>Want more cursors?</h3>
-                                <p>I can only fit so many in this tiny popup.
-                                    To access the rest of the cursors, go to the options menu where you can find
-                                    more</p>
-
-                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                        id="gotoOptions">Options Page
-                                </button>
-                            </div>
-                        </section><!--extra-->
-
                         <section class="mdl-layout__tab-panel" id="scroll-tab-7">
                             <div class="page-content"></div>
                         </section><!--food-->
+
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-8">
+                            <div class="page-content">
+
+                            </div>
+                        </section><!--premium-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-9">
+                            <div class="page-content">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td class="cut_but"><img src="cursors/arrows/gold.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="gold">Gold
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/silver.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="silver">Silver
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/ruby.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="ruby">Ruby
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/emerald.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="emerald">Emerald
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cut_but"><img src="cursors/arrows/bronze.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="bronze">Bronze
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/platinum.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="platinum">Platinum
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/saphire.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="saphire">Saphire
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/diamond.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="diamond">Diamond
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cut_but"><img src="cursors/arrows/amethyst.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="amethyst">Amethyst
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/jade.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="jade">Jade
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/opal.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="opal">Opal
+                                            </button>
+                                        </td>
+                                        <td class="cut_but"><img src="cursors/arrows/amber.png"> <br>
+                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                    id="amber">Amber
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section><!--gems-->
+
                         <div id="previews">
                             <h4 class="demoing">You have chosen:</h4>
                             <h4 class="demoing" id="chosen"></h4>
                             <img class="demoing" id="preview" src="">
                         </div>
-
                     </main>
                 </div>
             </div>
@@ -628,7 +704,7 @@
         <section class="mdl-layout__tab-panel" id="fixed-tab-4">
             <div class="page-content">
                 <h4 style="display: contents">Trails:</h4>
-                <div style=" border-color: #797777; border-style: dashed">
+                <div style="border: dashed #797777;">
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--1-col">
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
@@ -742,10 +818,10 @@
                         <a href="#help-panel" class="mdl-tabs__tab">Help</a>
                     </div>
                     <div class="mdl-tabs__panel is-active" id="home-panel">
-                        <h5>Custom Cursor</h5>
+                        <h5>Custom Cursor Premium</h5>
                         <p>
-                            Custom Cursor chrome extension lets you personalize your browsing experience by changing
-                            your cursor icon.
+                            Thank you for purchasing Custom Cursor Premium. Please enjoy cursor trails, and many
+                            exclusive cursors
                         </p>
                         <ul>
                             <li>Over 50 different cursors to chose from</li>
@@ -863,7 +939,16 @@
                 </div>
             </div>
         </section>
-
+        <section class="mdl-layout__tab-panel" id="fixed-tab-6">
+            <div class="page-content" style="padding:10px;">
+                <h5>Can't find what you're looking for?</h5>
+                <p>If you want to use a cursor from the free version, upload and image, or use a URL, you can find these
+                    in the main options page instead of this small popup.</p>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                        id="gotoOptions">Options Page
+                </button>
+            </div>
+        </section>
     </main>
 </div>
 <script src="popupScript.js"></script>
@@ -873,8 +958,8 @@
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab4">Add a Trail</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab5">Helpful Information</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="tab3">Upload an Image</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="default">Reset the Cursos</div>
-<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="fb">Facebook Page</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="trail-none-top">Remove the Trail</div>
+<div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="default">Reset the Cursor</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="featured">Featured Cursors</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="colors">Colored Cursors</div>
 <div class="mdl-tooltip mdl-tooltip--large" data-mdl-for="animals">Animal Cursors</div>
