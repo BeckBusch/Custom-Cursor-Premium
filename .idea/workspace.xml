@@ -3,11 +3,73 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a9a3a3-64b5-4480-9452-5495ece3c847" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/dva.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/dva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/genji.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/genji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/gold.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/gold.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/mcree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/tracer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/tracer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/widow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/widow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/pointers/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/pointers/blue.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/eventPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/eventPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/acorn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/fish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/green-graident.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/hallo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/indigo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/light-darkblue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/light_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/lime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/magenta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/pink-gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/acorn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/fish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/green-graident.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/hallo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/ingido.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/light-darkblue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/light_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/lime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/magenta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/pink-gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/saber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/teal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/vader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/violet-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/point/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/pokeball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/saber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/stripe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/teal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/vader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/violet-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/images/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/imgur.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/imgur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/popupScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popupScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/resources/material.teal-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/resources/facebook-box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/resources/popup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/resources/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cursor.psd" beforeDir="false" afterPath="$PROJECT_DIR$/cursor.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/table.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,18 +86,17 @@
       <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="577" column="38" selection-start-line="577" selection-start-column="38" selection-end-line="577" selection-end-column="38" />
+            <state relative-caret-position="3179">
+              <caret line="587" column="149" lean-forward="true" selection-start-line="587" selection-start-column="149" selection-end-line="587" selection-end-column="149" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,16 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/table.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Extension/popup.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="popupScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="-17">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -65,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Extension/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="312">
+              <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -100,13 +165,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Extension/manifest.json" />
-        <option value="$PROJECT_DIR$/Extension/page.js" />
-        <option value="$PROJECT_DIR$/Extension/popupScript.js" />
-        <option value="$PROJECT_DIR$/Extension/eventPage.js" />
         <option value="$PROJECT_DIR$/table.txt" />
         <option value="$PROJECT_DIR$/Extension/popup.css" />
-        <option value="$PROJECT_DIR$/Extension/popup.html" />
         <option value="$PROJECT_DIR$/table.html" />
+        <option value="$PROJECT_DIR$/Extension/popup.html" />
+        <option value="$PROJECT_DIR$/Extension/eventPage.js" />
+        <option value="$PROJECT_DIR$/Extension/popupScript.js" />
+        <option value="$PROJECT_DIR$/Extension/page.js" />
       </list>
     </option>
   </component>
@@ -129,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,15 +201,11 @@
               <item name="Custom-Cursor-Premium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Custom-Cursor-Premium" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Custom-Cursor-Premium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Custom-Cursor-Premium" type="462c0819:PsiDirectoryNode" />
-              <item name="Extension" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,6 +213,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,21 +249,26 @@
       <workItem from="1540328509615" duration="3293000" />
       <workItem from="1540340376111" duration="310000" />
       <workItem from="1540347067387" duration="2239000" />
-      <workItem from="1540416940484" duration="4069000" />
+      <workItem from="1540416940484" duration="7748000" />
+      <workItem from="1540458617104" duration="24000" />
+      <workItem from="1540459615669" duration="2553000" />
+      <workItem from="1540507601345" duration="7109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13167000" />
+    <option name="totallyTimeSpent" value="26532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17597471" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3297546" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -215,25 +281,24 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24851191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -244,46 +309,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Extension/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12614">
-          <caret line="742" column="58" selection-start-line="742" selection-start-column="58" selection-end-line="742" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/gold.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/fear.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/blue.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -310,11 +335,10 @@
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -361,11 +385,10 @@
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -422,11 +445,10 @@
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -452,26 +474,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/resources/colors.png" />
-    <entry file="file://$PROJECT_DIR$/Extension/resources/custom help.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/facebook-box.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/help2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/resources/icon.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/other.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/pointer.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,23 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/icon16.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/icon48.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/resources/icon128.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/resources/material.teal-blue.min.css" />
-    <entry file="file://$PROJECT_DIR$/Extension/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/resources/material.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
@@ -510,57 +498,82 @@
     <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/blue.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/table.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/table.txt" />
     <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/gold.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/fear.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/facebook-box.png" />
+    <entry file="file://$PROJECT_DIR$/Extension/resources/help2.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
+    <entry file="file://$PROJECT_DIR$/Extension/resources/custom help.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/icon16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/icon48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/icon128.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/other.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/pointer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/resources/test.png" />
+    <entry file="file://$PROJECT_DIR$/Extension/resources/popup.txt" />
+    <entry file="file://$PROJECT_DIR$/icon.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/pointers/bird.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cursor.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/pointers/saphire.psd" />
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/pointers/ruby.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/cursors/arrows/ruby.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointer.psd">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="577" column="38" selection-start-line="577" selection-start-column="38" selection-end-line="577" selection-end-column="38" />
+        <state relative-caret-position="3179">
+          <caret line="587" column="149" lean-forward="true" selection-start-line="587" selection-start-column="149" selection-end-line="587" selection-end-column="149" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#table#0;n#div#0;n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -571,8 +584,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/table.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

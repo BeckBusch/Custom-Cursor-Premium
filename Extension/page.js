@@ -1,4 +1,4 @@
-var imgURL = chrome.runtime.getURL("cursors/");
+const imgURL = chrome.runtime.getURL("cursors/");
 
 chrome.storage.sync.get('option', function (obj) {
 
@@ -12,29 +12,42 @@ chrome.storage.sync.get('option', function (obj) {
 
     }
     else {
-
         document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
-        var items = document.getElementsByTagName("a");
-        for (var i = 0; i < items.length; i++) {
-            items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
+
+        items = document.getElementsByTagName("*");
+        for (i = 0; i < items.length; i++) {
+            if (getComputedStyle(items[i]).cursor == 'default') {
+                items[i].style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
+            }
+        }
+
+       // var items = document.getElementsByTagName("a");
+       // for (var i = 0; i < items.length; i++) {
+      //      items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
+       // }
+        for (i = 0; i < items.length; i++) {
+            if (getComputedStyle(items[i]).cursor == 'pointer') {
+                items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
+            }
         }
     }
 });
 
 
 chrome.storage.sync.get('trail', function (obj) {
-    if(obj['trail'] == undefined) {
-       return;
+    if (obj['trail'] === undefined) {
+        console.log('undefined')
     }
-    else if (obj['trail'] == "google") {
-        var colorArray = ["#0266C8","#F90101","#F2B50F","#00933B"];
-        document.addEventListener('mousemove', function(event){
-            var curColor = colorArray[Math.floor(Math.random()*colorArray.length)];
-            var curX = event.pageX;
-            var curY = event.pageY;
-            var width = Math.random()*50;
-            var height = width;
-            var item = document.createElement('div');
+    else if (obj['trail'] === "google") {
+        let colorArray = ["#0266C8", "#F90101", "#F2B50F", "#00933B"];
+        document.addEventListener('mousemove', function (event) {
+            let curColor = colorArray[Math.floor(Math.random() * colorArray.length)];
+            let curX = event.pageX;
+            let curY = event.pageY;
+            let width = Math.random() * 50;
+            // noinspection JSSuspiciousNameCombination
+            let height = width;
+            let item = document.createElement('div');
             item.style.position = 'absolute';
             item.style.display = 'inline-block';
             item.style.borderRadius = '50%';
@@ -47,49 +60,53 @@ chrome.storage.sync.get('trail', function (obj) {
             item.style.height = String(height) + "px";
             item.style.zIndex = "10";
             item.style.backgroundColor = String(curColor);
-            setTimeout(function(){item.style.opacity = '0';}, 500);
+            setTimeout(function () {
+                item.style.opacity = '0';
+            }, 500);
             document.body.appendChild(item);
         });
 
 
     }
     else if (obj['trail'] == "trail-dot") {
-        chrome.storage.sync.get(['color', 'size'], function(obj){
-            var dots = [],
+        chrome.storage.sync.get(['color', 'size'], function (obj) {
+            const dots = [],
                 mouse = {
                     x: 0,
                     y: 0
                 };
-            var Dot = function() {
+            const Dot = function () {
                 this.x = 0;
                 this.y = 0;
-                this.node = (function(){
-                    var n = document.createElement("div");
+                this.node = (function () {
+                    const n = document.createElement("div");
                     n.className = "trail";
                     n.style.position = "absolute";
-                    n.style.height = String(obj['size'])+"px";
-                    n.style.width = String(obj['size'])+"px";
-                    n.style.borderRadius = String(obj['size']/2)+"px";
+                    n.style.zIndex = '10';
+                    n.style.height = String(obj['size']) + "px";
+                    n.style.width = String(obj['size']) + "px";
+                    n.style.borderRadius = String(obj['size'] / 2) + "px";
                     n.style.background = obj['color'];
                     n.style.pointerEvents = "none";
                     document.body.appendChild(n);
                     return n;
                 }());
             };
-            var trail = document.getElementsByClassName('trail');
-            Dot.prototype.draw = function() {
+            const trail = document.getElementsByClassName('trail');
+            Dot.prototype.draw = function () {
                 this.node.style.left = this.x + "px";
                 this.node.style.top = this.y + "px";
             };
-            for (var i = 0; i < 12; i++) {
-                var d = new Dot();
+            for (let i = 0; i < 12; i++) {
+                const d = new Dot();
                 dots.push(d);
             }
+
             function draw() {
-                var x = mouse.x,
+                let x = mouse.x,
                     y = mouse.y;
-                dots.forEach(function(dot, index, dots) {
-                    var nextDot = dots[index + 1] || dots[0];
+                dots.forEach(function (dot, index, dots) {
+                    const nextDot = dots[index + 1] || dots[0];
                     dot.x = x;
                     dot.y = y;
                     dot.draw();
@@ -98,14 +115,17 @@ chrome.storage.sync.get('trail', function (obj) {
 
                 });
             }
-            addEventListener("mousemove", function(event) {
+
+            addEventListener("mousemove", function (event) {
                 mouse.x = event.pageX;
                 mouse.y = event.pageY;
             });
+
             function animate() {
                 draw();
                 requestAnimationFrame(animate);
             }
+
             animate();
         })
     }

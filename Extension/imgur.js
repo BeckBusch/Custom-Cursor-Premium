@@ -1,8 +1,8 @@
-var callback = function (res) {
+const callback = function (res) {
     if (res.success === true) {
-        document.getElementById("uploadedImg").src =  res.data.link;
+        document.getElementById("uploadedImg").src = res.data.link;
         // document.getElementById("outputImg").value = res.data.link;
-}
+    }
 };
 
 new Imgur({

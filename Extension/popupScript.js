@@ -1,12 +1,13 @@
-//google analyitics start
+//google analytics start
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-98900189-2']);
+_gaq.push(['_setAccount', 'UA-98900189-6']);
 _gaq.push(['_trackPageview']);
 
 (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = 'https://ssl.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    let s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
 })();
 //google analyitics end
 
@@ -115,6 +116,8 @@ function fbPage (){
 }
 
 function gotoOptions(){
+    // noinspection JSUnresolvedFunction
+    // noinspection JSUnresolvedFunction
     chrome.runtime.openOptionsPage();
 }
 
@@ -140,9 +143,9 @@ function other() {
     selection = this.id;
     custom = (document.getElementById('other_input').value);
     document.getElementById('preview').src = custom;
-    var img = document.getElementById('preview');
-    var imgWide = img.naturalWidth;
-    var imgHigh = img.naturalHeight;
+    const img = document.getElementById('preview');
+    const imgWide = img.naturalWidth;
+    const imgHigh = img.naturalHeight;
     if ((imgWide > 128) || (imgHigh > 128)) {
         alert("Your custom image is larger that 128x128. This can not be used as a cursor.");
         document.getElementById('preview').src = "";
