@@ -2,74 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a9a3a3-64b5-4480-9452-5495ece3c847" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/dva.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/dva.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/genji.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/genji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/gold.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/gold.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/mcree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/tracer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/tracer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/arrows/widow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/arrows/widow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/cursors/pointers/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/pointers/blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/eventPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/eventPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/acorn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/fish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/green-graident.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/hallo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/indigo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/light-darkblue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/light_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/lime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/magenta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/pink-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/acorn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/fish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/green-graident.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/hallo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/ingido.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/light-darkblue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/light_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/lime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/magenta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/pink-gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/pokeball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/rainbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/saber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/stripe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/teal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/vader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/violet-red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/point/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/pokeball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/rainbow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/saber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/stripe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/teal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/vader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/violet-red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/images/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/imgur.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/imgur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extension/cursors/pointers/zenyatta.png" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/cursors/pointers/zenyatta.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extension/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/popupScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Extension/popupScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/resources/facebook-box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/resources/popup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extension/resources/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursor.psd" beforeDir="false" afterPath="$PROJECT_DIR$/cursor.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overwatch/pointer/symmetra.png" beforeDir="false" afterPath="$PROJECT_DIR$/overwatch/pointer/symmetra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overwatch/pointer/zenyatta.png" beforeDir="false" afterPath="$PROJECT_DIR$/overwatch/pointer/zenyatta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overwatch/symmetra.png" beforeDir="false" afterPath="$PROJECT_DIR$/overwatch/symmetra.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,8 +25,8 @@
       <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="587" column="149" lean-forward="true" selection-start-line="587" selection-start-column="149" selection-end-line="587" selection-end-column="149" />
+            <state relative-caret-position="1768">
+              <caret line="652" column="144" selection-start-line="652" selection-start-column="139" selection-end-line="652" selection-end-column="144" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,8 +34,11 @@
                 <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -111,7 +53,7 @@
       <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="289">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
@@ -120,8 +62,8 @@
       <file leaf-file-name="popupScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -130,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -141,8 +83,17 @@
       <file leaf-file-name="page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Extension/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+            <state relative-caret-position="221">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30617">
+              <caret line="1801" column="33" selection-start-line="1801" selection-start-column="14" selection-end-line="1801" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -156,6 +107,7 @@
       <find>&lt;td style=&quot;text-align: center;&quot;&gt;</find>
       <find>style=&quot;text-align: center;&quot;</find>
       <find>class=&quot;colours&quot;</find>
+      <find>engineering project</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,10 +120,12 @@
         <option value="$PROJECT_DIR$/table.txt" />
         <option value="$PROJECT_DIR$/Extension/popup.css" />
         <option value="$PROJECT_DIR$/table.html" />
-        <option value="$PROJECT_DIR$/Extension/popup.html" />
         <option value="$PROJECT_DIR$/Extension/eventPage.js" />
         <option value="$PROJECT_DIR$/Extension/popupScript.js" />
+        <option value="$PROJECT_DIR$/Extension/popup.html" />
         <option value="$PROJECT_DIR$/Extension/page.js" />
+        <option value="$PROJECT_DIR$/test" />
+        <option value="$PROJECT_DIR$/test.json" />
       </list>
     </option>
   </component>
@@ -185,8 +139,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="826" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,6 +157,17 @@
               <item name="Custom-Cursor-Premium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Custom-Cursor-Premium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Custom-Cursor-Premium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Cursor-Premium" type="462c0819:PsiDirectoryNode" />
+              <item name="overwatch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Cursor-Premium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Cursor-Premium" type="462c0819:PsiDirectoryNode" />
+              <item name="overwatch" type="462c0819:PsiDirectoryNode" />
+              <item name="pointer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,6 +181,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,23 +220,24 @@
       <workItem from="1540416940484" duration="7748000" />
       <workItem from="1540458617104" duration="24000" />
       <workItem from="1540459615669" duration="2553000" />
-      <workItem from="1540507601345" duration="7109000" />
+      <workItem from="1540507601345" duration="12512000" />
+      <workItem from="1540756267885" duration="2637000" />
+      <workItem from="1540758934439" duration="1144000" />
+      <workItem from="1540766807024" duration="3921000" />
+      <workItem from="1540941178850" duration="1024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26532000" />
+    <option name="totallyTimeSpent" value="40661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17597471" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.087987356" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3297546" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -279,8 +248,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.3297546" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,47 +279,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#section#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -387,8 +323,11 @@
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -447,8 +386,11 @@
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -556,15 +498,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="289">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overwatch/pointer/bastion.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overwatch/bastion.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30617">
+          <caret line="1801" column="33" selection-start-line="1801" selection-start-column="14" selection-end-line="1801" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Extension/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="587" column="149" lean-forward="true" selection-start-line="587" selection-start-column="149" selection-end-line="587" selection-end-column="149" />
+        <state relative-caret-position="1768">
+          <caret line="652" column="144" selection-start-line="652" selection-start-column="139" selection-end-line="652" selection-end-column="144" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -572,8 +544,11 @@
             <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -584,29 +559,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/popupScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extension/eventPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extension/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+        <state relative-caret-position="221">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

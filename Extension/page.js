@@ -1,3 +1,12 @@
+locations = {
+//  name : {a : '00 00', p : '00 00'},
+    ana: {a: '00 19', p: '00 17'},
+    symmetra: {a: '01 16', p: '01 19'},
+    bastion : {a: '00 52', p: '00 52'},
+    zenyatta : {a: '02 07', p: '02 35'}
+};
+
+
 const imgURL = chrome.runtime.getURL("cursors/");
 
 chrome.storage.sync.get('option', function (obj) {
@@ -12,22 +21,26 @@ chrome.storage.sync.get('option', function (obj) {
 
     }
     else {
-        document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
+        if(locations[obj['option']] != undefined){
+            var locaA = locations[obj['option']].a;
+            var locaP = locations[obj['option']].p;
+        }
+        else{
+            loacA = "";
+            locaP = "";
+        }
 
+        document.body.style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png)" + locaA + ", auto";
         items = document.getElementsByTagName("*");
         for (i = 0; i < items.length; i++) {
             if (getComputedStyle(items[i]).cursor == 'default') {
-                items[i].style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png), auto";
+                items[i].style.cursor = "url(" + imgURL + "arrows/" + obj['option'] + ".png)" + locaA + ", auto";
             }
         }
 
-       // var items = document.getElementsByTagName("a");
-       // for (var i = 0; i < items.length; i++) {
-      //      items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
-       // }
         for (i = 0; i < items.length; i++) {
             if (getComputedStyle(items[i]).cursor == 'pointer') {
-                items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png), auto";
+                items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png)" + locaP + ", auto";
             }
         }
     }
