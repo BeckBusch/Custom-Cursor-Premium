@@ -13,6 +13,7 @@ _gaq.push(['_trackPageview']);
 
 //varibles start
 custom = "";
+opt = document.getElementsByClassName("gotoOptions");
 links = document.getElementsByClassName('links');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
@@ -43,7 +44,6 @@ document.getElementById('trail-none-top').addEventListener('click', trailNone);
 document.getElementById("infoLink").addEventListener('click', informationLink);
 document.getElementById("upLink").addEventListener('click', uploadLink);
 document.getElementById("other").addEventListener('click', other);
-document.getElementById('gotoOptions').addEventListener('click', gotoOptions);
 document.getElementById("other2").addEventListener('click', imgurUp);
 //eventlisners end
 
@@ -164,6 +164,12 @@ function other() {
 }
 
 function saveOptions() {
+    chrome.tabs.query({}, function (tabs) {
+        for(i=0; i<tabs.length; i++){
+            chrome.tabs.sendMessage(tabs[i].id, {msg: "update"});
+        }
+    });
+
     _gaq.push(['_trackEvent', selection, 'clicked']);
 
     chrome.storage.sync.set(

@@ -7,7 +7,7 @@
   "options_page": "options.html",
   "description": "A premium upgrade to Custom Cursor Chrome extension!",
   "version": "1.0.0",
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://code.getmdl.io/1.3.0/material.min.js https://code.getmdl.io/1.3.0/material.orange-blue.min.css; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 
   "options_ui": {
     "page": "popup.html",

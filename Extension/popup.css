@@ -4,6 +4,7 @@ td {
 }
 .mdl-cell {
     text-align: -webkit-center;
+    display: inline-table;
 }
 .colorButton:hover {
     background-image: none !important;

@@ -17,18 +17,13 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-            <!-- Title -->
             <span class="mdl-layout-title">Options</span>
-            <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
-            <!-- Navigation. We hide it in small screens.  !hiding in small screens has been removed -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" id="trail-none-top" style="background-color: rgb(105,240,174)">Reset
-                    Trail</a>
+                <a class="mdl-navigation__link" id="trail-none-top" style="background-color: rgb(105,240,174)">Reset Trail</a>
                 <a class="mdl-navigation__link" id="default" style="background-color: rgb(105,240,174)">Reset Cursor</a>
             </nav>
         </div>
-        <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
             <a href="#fixed-tab-5" class="mdl-layout__tab" id="tab5">Home</a>
             <a href="#fixed-tab-1" class="mdl-layout__tab is-active" id="tab1">Cursors</a>
@@ -54,14 +49,14 @@
                     <header class="mdl-layout__header">
                         <!-- Tabs mdl-layout--large-screen-only -->
                         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                            <a href="#scroll-tab-8" id="premium" class="mdl-layout__tab is-active">Premium</a>
+                            <a href="#scroll-tab-8" id="premium" class="mdl-layout__tab is-active">Featured</a>
                             <a href="#scroll-tab-9" id="gems" class="mdl-layout__tab">Gems</a>
                             <a href="#scroll-tab-10" id="gaming" class="mdl-layout__tab">Overwatch</a>
-                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab">Gaming</a>
+                            <a href="#scroll-tab-11" id="pkmn" class="mdl-layout__tab">Pokemon</a>
+                            <a href="#scroll-tab-6" id="more" class="mdl-layout__tab mdl-layout--small-screen-only">More</a>
 
-
-                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab mdl-layout--large-screen-only">Free
-                                Featured</a>
+                            <a href="#scroll-tab-4" id="OW" class="mdl-layout__tab mdl-layout--large-screen-only">Gaming</a>
+                            <a href="#scroll-tab-1" id="featured" class="mdl-layout__tab mdl-layout--large-screen-only">Free Featured</a>
                             <a href="#scroll-tab-2" id="colors" class="mdl-layout__tab mdl-layout--large-screen-only">Colors</a>
                             <a href="#scroll-tab-3" id="animals" class="mdl-layout__tab mdl-layout--large-screen-only">Animals</a>
                             <a href="#scroll-tab-5" id="emoji" class="mdl-layout__tab mdl-layout--large-screen-only">Emoji</a>
@@ -71,103 +66,93 @@
                     <main class="mdl-layout__content">
                         <section class="mdl-layout__tab-panel" id="scroll-tab-1">
                             <div class="page-content">
-                                <table>
-                                    <tbody id="contentCur">
-                                    <tr>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/light-darkblue.png">
-                                            <br>
-                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                                    id="light-darkblue">Blue
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/pink-gradient.png">
-                                            <br>
-                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                                    id="pink-gradient">Pink
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/green-graident.png">
-                                            <br>
-                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                                    id="green-graident">Green
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/violet-red.png">
-                                            <br>
-                                            <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                                                    id="violet-red">Hue
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/rainbow.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    type="button" id="rainbow">Rainbow
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/balloon.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="balloon">Balloon
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/hallo.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="hallo">Halloween
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/acorn.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="acorn">Acorn
-                                            </button>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/stripe.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="stripe">stripe
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/pokeball.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="pokeball">Pokeball
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/vader.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="vader">Darth<br>Vader
-                                            </button>
-                                        </td>
-                                        <td class="cur_but">
-                                            <img src="cursors/arrows/saber.png">
-                                            <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
-                                                    id="saber">Lightsaber
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </section>
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/light-darkblue.png">
+                                        <br>
+                                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                id="light-darkblue">Blue
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/pink-gradient.png">
+                                        <br>
+                                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                id="pink-gradient">Pink
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/green-graident.png">
+                                        <br>
+                                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                id="green-graident">Green
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/violet-red.png">
+                                        <br>
+                                        <button class="mdl-button curChoice mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                                                id="violet-red">Hue
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/rainbow.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                type="button" id="rainbow">Rainbow
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/balloon.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="balloon">Balloon
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/hallo.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="hallo">Halloween
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/acorn.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="acorn">Acorn
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/stripe.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="stripe">stripe
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/pokeball.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="pokeball">Pokeball
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/vader.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="vader">Darth<br>Vader
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/saber.png">
+                                        <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="saber">Lightsaber
+                                        </button>
+                                    </div>
+                                </div>                            </div>
+                        </section><!--free featured-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-2">
                             <div class="page-content">
                                 <table>
@@ -549,250 +534,374 @@
 
                             </div>
                         </section><!--premium-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+                            <div class="page-content" style="padding:10px;">
+                                <h5>Can't find what you're looking for?</h5>
+                                <p>If you want to use a cursor from the free version, upload and image, or use a URL, you can find these
+                                    in the main options page instead of this small popup.</p>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect gotoOptions">Options Page
+                                </button>
+                            </div>
+                        </section><!--more-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-9">
                             <div class="page-content">
-                                <table>
-                                    <tbody>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/gold.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="gold">Gold
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/silver.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="silver">
-                                                Silver
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/ruby.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="ruby">Ruby
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/emerald.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="emerald">
-                                                Emerald
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/bronze.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="bronze">
-                                                Bronze
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/skyblutop.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="skyblutop">
-                                                skyblutop
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/sapphire.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="sapphire">
-                                                Sapphire
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/diamond.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="diamond">
-                                                Diamond
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/amethyst.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="amethyst">
-                                                Amethyst
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/jade.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="jade">Jade
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/opal.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="opal">Opal
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/amber.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="amber">
-                                                Amber
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/gold.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="gold">Gold
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/silver.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="silver">
+                                            Silver
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/ruby.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="ruby">Ruby
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/emerald.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="emerald">
+                                            Emerald
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/bronze.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="bronze">
+                                            Bronze
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/skyblutop.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="skyblutop">
+                                            Sky Blue
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/sapphire.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="sapphire">
+                                            Sapphire
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/diamond.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="diamond">
+                                            Diamond
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/amethyst.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="amethyst">
+                                            Amethyst
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/jade.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="jade">Jade
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/opal.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="opal">Opal
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col">
+                                        <img src="cursors/arrows/amber.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="amber">
+                                            Amber
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </section><!--gems-->
                         <section class="mdl-layout__tab-panel" id="scroll-tab-10">
                             <div class="page-content">
-                                <table>
-                                    <tbody>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/ana.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="ana">Ana
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/bastion.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="bastion">
-                                                Bastion
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/brigitte.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="brigitte">
-                                                Brigitte
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/doomfist.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="doomfist">
-                                                Doomfist
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/dva.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="dva">Dva
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/genji.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="genji">
-                                                Genji
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/hammond.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="hammond">
-                                                Hammond
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/hanzo.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="hanzo">
-                                                Hanzo
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/junkrat.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="junkrat">
-                                                Junkrat
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/lucio.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="lucio">
-                                                Lucio
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/mccree.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mccree">
-                                                Mccree
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/mei.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mei">Mei
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/mercy.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mercy">
-                                                Mercy
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/moira.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="moira">
-                                                Moira
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/orisa.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="orisa">
-                                                Orisa
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/pharah.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="pharah">
-                                                Pharah
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/reaper.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="reaper">
-                                                Reaper
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/reinhardt.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="reinhardt">
-                                                Reinhardt
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/roadhog.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="roadhog">
-                                                Roadhog
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/soldier76.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="soldier76">
-                                                Soldier76
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/sombra.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="sombra">
-                                                Sombra
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/symmetra.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="symmetra">
-                                                Symmetra
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/torb.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="torb">Torb
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/tracer.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="tracer">
-                                                Tracer
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/widow.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="widow">
-                                                Widow
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/winston.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="winston">
-                                                Winston
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/zarya.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="zarya">
-                                                Zarya
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="cur_but"><img src="cursors/arrows/zenyatta.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="zenyatta">
-                                                Zenyatta
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/hero 29.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="hero 29">Hero
-                                                29
-                                            </button>
-                                        </td>
-                                        <td class="cur_but"><img src="cursors/arrows/hero 30.png"> <br>
-                                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="hero 30">Hero
-                                                30
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/ana.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="ana">Ana
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/ashe.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="ashe">Ashe
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/bastion.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="bastion">Bastion
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/brigitte.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="brigitte">Brigitte
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/doomfist.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="doomfist">Doomfist
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/dva.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="dva">Dva
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/genji.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="genji">Genji
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/hammond.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="hammond">Hammond
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/hanzo.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="hanzo">Hanzo
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/junkrat.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="junkrat">Junkrat
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/lucio.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="lucio">Lucio
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mccree.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="mccree">Mccree
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mei.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="mei">Mei
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mercy.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="mercy">Mercy
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/moira.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="moira">Moira
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/orisa.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="orisa">Orisa
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/pharah.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="pharah">Pharah
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/reaper.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="reaper">Reaper
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/reinhardt.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="reinhardt">Reinhardt
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/roadhog.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="roadhog">Roadhog
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/soldier76.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="soldier76">Soldier76
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/sombra.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="sombra">Sombra
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/symmetra.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="symmetra">Symmetra
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/torb.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="torb">Torb
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/tracer.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="tracer">Tracer
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/widow.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="widow">Widow
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/winston.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="winston">Winston
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/zarya.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="zarya">Zarya
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/zenyatta.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice"
+                                                id="zenyatta">Zenyatta
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                        </section>
+                        </section><!--overwatch-->
+                        <section class="mdl-layout__tab-panel" id="scroll-tab-11">
+                            <div class="page-content">
+                                <div class="mdl-grid">
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/abra.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="abra">Abra
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/bellsprout.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="bellsprout">
+                                            Bellsprout
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/bullbasaur.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="bullbasaur">
+                                            Bullbasaur
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/caterpie.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="caterpie">
+                                            Caterpie
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/dratini.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="dratini">
+                                            Dratini
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/eevee.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="eevee">Eevee
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/egg-pokemon.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="egg-pokemon">
+                                            Egg-pokemon
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/jigglypuff.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="jigglypuff">
+                                            Jigglypuff
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mankey.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mankey">Mankey
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/map-pokemon.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="map-pokemon">
+                                            Map-pokemon
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mega-ball.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mega-ball">
+                                            Mega-ball
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/meowth.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="meowth">Meowth
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/mew.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="mew">Mew</button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/pidgey.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="pidgey">Pidgey
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/pokeball8.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="pokeball8">
+                                            Pokeball
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/pokemon.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="pokemon">
+                                            Pokemon
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/psyduck.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="psyduck">
+                                            Psyduck
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/rattata.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="rattata">
+                                            Rattata
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/snorlax.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="snorlax">
+                                            Snorlax
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/squirtle.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="squirtle">
+                                            Squirtle
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/superball.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="superball">
+                                            Superball
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/ultra-ball.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="ultra-ball">
+                                            Ultra-ball
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/venonat.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="venonat">
+                                            Venonat
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/weedle.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="weedle">Weedle
+                                        </button>
+                                    </div>
+                                    <div class="mdl-cell mdl-cell--1-col"><img src="cursors/arrows/zubat.png"> <br>
+                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect curChoice" id="zubat">Zubat
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section><!--pokemon-->
                         <div id="previews">
                             <h4 class="demoing">You have chosen:</h4>
                             <h4 class="demoing" id="chosen"></h4>
@@ -822,7 +931,7 @@
             </fieldset>
             <img src="resources/custom%20help.png">
             <img src="resources/help2.png">
-        </section>
+        </section><!--URL-->
         <section class="mdl-layout__tab-panel" id="fixed-tab-3">
             <div class="page-content">
                 <div id="top">
@@ -845,11 +954,18 @@
                 <script src="imgur.min.js"></script>
                 <script src="imgur.js"></script>
             </div>
-        </section>
+        </section><!--uploader-->
         <section class="mdl-layout__tab-panel" id="fixed-tab-4">
             <div class="page-content">
                 <h4 style="display: contents">Trails:</h4>
                 <div style="border: dashed #797777;">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--1-col">
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
@@ -953,7 +1069,7 @@
                 </ul>
 
             </div>
-        </section>
+        </section><!--trails-->
         <section class="mdl-layout__tab-panel" id="fixed-tab-5">
             <div class="page-content">
                 <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
@@ -1083,17 +1199,16 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section><!--home-->
         <section class="mdl-layout__tab-panel" id="fixed-tab-6">
             <div class="page-content" style="padding:10px;">
                 <h5>Can't find what you're looking for?</h5>
                 <p>If you want to use a cursor from the free version, upload and image, or use a URL, you can find these
                     in the main options page instead of this small popup.</p>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                        id="gotoOptions">Options Page
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect gotoOptions">Options Page
                 </button>
             </div>
-        </section>
+        </section><!--options-->
     </main>
 </div>
 <script src="popupScript.js"></script>
