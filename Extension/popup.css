@@ -1,7 +1,16 @@
-td {
+#fixed-tab-1 td {
     margin: auto;
     width: 80px;
 }
+#fixed-tab-4 h4,
+#fixed-tab-4 h5 {
+    margin: 12px 0 8px;
+}
+#fixed-tab-4 td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 .mdl-cell {
     text-align: -webkit-center;
     display: inline-table;

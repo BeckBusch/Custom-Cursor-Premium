@@ -14,62 +14,82 @@ _gaq.push(['_trackPageview']);
 //varibles start
 custom = "";
 opt = document.getElementsByClassName("gotoOptions");
-links = document.getElementsByClassName('links');
 buts = document.getElementsByClassName('curChoice');
 chosen = document.getElementsByClassName('chosen');
 colButs = document.getElementsByClassName('colorButton');
+trails = document.getElementsByClassName('trailsButton');
+link = document.getElementsByClassName('links');
 //varibles end
 
 //eventlisners start
 //class
 for (i=0; i < buts.length; i ++){
-    document.getElementById(buts[i].id).addEventListener('click', select, true)
+    buts[i].addEventListener('click', select, true)
 }
-for (i=0; i <colButs.length; i ++) {
-    document.getElementById(colButs[i].id).addEventListener('click', trailCol)
+for (i=0; i<link.length; i ++){
+    link[i].addEventListener('click', links)
 }
-for (i=0; i<links.length; i ++){
-    document.getElementById(links[i].id).addEventListener('click', linksFunct)
+for (i=0; i<trails.length; i++){
+    trails[i].addEventListener('click', trailChange);
 }
+for (i=0; i<opt.length; i++) {
+    opt[i].addEventListener('click', gotoOptions)
+}
+
 //trail
-document.getElementById('googleTrail').addEventListener('click', googleTrail);
+document.getElementById('color').addEventListener("change", trailCol);
 document.getElementById('trail-none').addEventListener('click', trailNone);
 document.getElementById('size-slider').addEventListener('change',trailSize);
 document.getElementById("trail-dot").addEventListener('click', trailDot);
-document.getElementById("heavyTrail").addEventListener('click', heavyTrail);
 //id
-document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("default").addEventListener('click', select, true);
 document.getElementById('trail-none-top').addEventListener('click', trailNone);
-document.getElementById("infoLink").addEventListener('click', informationLink);
-document.getElementById("upLink").addEventListener('click', uploadLink);
+
+document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("other").addEventListener('click', other);
 document.getElementById("other2").addEventListener('click', imgurUp);
 //eventlisners end
 
 //functions start
-function linksFunct(){
-    if (this.id == "googleDetails") {
-        parent.window.open('https://codepen.io/praveenpuglia/details/wpduH/');}
-    else if (this.id == "googleFull") {
-        parent.window.open('https://codepen.io/praveenpuglia/full/wpduH/');}
-    else if (this.id == "heavyDetails") {
-        parent.window.open('https://codepen.io/Tibixx/details/odwMMm');}
-    else if (this.id == "heavyFull") {
-        parent.window.open('https://codepen.io/Tibixx/full/odwMMm/');}
+function update() {
+    chrome.tabs.query({}, function (tabs) {
+        for(i=0; i<tabs.length; i++){
+            chrome.tabs.sendMessage(tabs[i].id, {msg: "update"});
+        }
+    });
+}
+
+function links() {
+    switch (this.id) {
+        case "googleDetails":
+            parent.window.open('https://codepen.io/praveenpuglia/details/wpduH/');
+            break;
+        case "mitL":
+            parent.window.open('https://github.com/tholman/90s-cursor-effects/blob/master/license.md');
+            break;
+        case "infoLink":
+            parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
+            break;
+        case "upLink":
+            parent.window.open('http:/beckbusch.github.io/Custom-Rainbow-Cursor-Extension/imgurUp.html');
+            break;
+        case "90source":
+            parent.window.open('https://github.com/tholman/cursor-effects');
+            break;
+    }
 }
 
 function trailNone(){
     chrome.storage.sync.set({'trail': "none"});
     document.getElementById("trail-result").value = "Removed Trail";
+    update();
+}
 
+function trailChange(){
+    chrome.storage.sync.set({'trail': this.id});
+    update();
 }
-function googleTrail(){
-    chrome.storage.sync.set({'trail': 'google'})
-}
-function heavyTrail(){
-    chrome.storage.sync.set({'trail': 'heavy'})
-}
+
 
 function trailDot () {
     selected = this.id;
@@ -81,6 +101,7 @@ function trailDot () {
     }
     chrome.storage.sync.set({"trail": selected});
     document.getElementById("trail-result").value = "Saved Option as: " + selected;
+    update();
 }
 function trailSize(){
     sizeValue = this.value;
@@ -90,13 +111,15 @@ function trailSize(){
     demo.style.borderRadius = String(sizeValue/2) + "px";
     chrome.storage.sync.set({'size': sizeValue});
     document.getElementById("trail-result").value = "Saved Size as: " + String(sizeValue);
+    update();
 }
 function trailCol(){
-    selectedCol = this.id;
+    selectedCol = this.value;
     document.getElementById("dotTrailDemo").style.backgroundColor = selectedCol;
     chrome.storage.sync.set(
         {"color": selectedCol});
     document.getElementById("trail-result").value = "Saved Color as: " + selectedCol;
+    update();
 }
 
 function helpEmail (){
@@ -107,22 +130,8 @@ function helpEmail (){
 
 }
 
-function informationLink (){
-    parent.window.open('http://beckbusch.github.io/Custom-Rainbow-Cursor-Extension/?type=popup');
-}
-
-function fbPage (){
-    parent.window.open('https://www.facebook.com/CustomCursorExtension');
-}
-
 function gotoOptions(){
-    // noinspection JSUnresolvedFunction
-    // noinspection JSUnresolvedFunction
     chrome.runtime.openOptionsPage();
-}
-
-function uploadLink (){
-    parent.window.open('http:/beckbusch.github.io/Custom-Rainbow-Cursor-Extension/imgurUp.html');
 }
 
 function select() {
@@ -164,11 +173,7 @@ function other() {
 }
 
 function saveOptions() {
-    chrome.tabs.query({}, function (tabs) {
-        for(i=0; i<tabs.length; i++){
-            chrome.tabs.sendMessage(tabs[i].id, {msg: "update"});
-        }
-    });
+    update();
 
     _gaq.push(['_trackEvent', selection, 'clicked']);
 
