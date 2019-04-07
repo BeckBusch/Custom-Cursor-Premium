@@ -191,10 +191,11 @@ function trail() {
                     n.className = "trail";
                     n.style.position = "absolute";
                     n.style.zIndex = '1000';
-                    n.style.height = "20px";
-                    n.style.width = "20px";
-                    n.style.borderRadius = "10px";
-                    n.style.background = "#ffeb21";
+                    n.style.height = "28px";
+                    n.style.width = "28px";
+                    n.style.borderRadius = "14px";
+                    n.style.background = "#ffffff";
+                    n.style.boxShadow = "0px 0px 20px 5px #FFEB21";
                     n.style.pointerEvents = "none";
                     document.body.appendChild(n);
                     return n;
