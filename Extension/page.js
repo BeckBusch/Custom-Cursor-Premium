@@ -35,15 +35,14 @@ const imgURL = chrome.runtime.getURL("cursors/");
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
-        if (request.msg == "update") {
-            cursor();
-            trail();
-        }
-    });
+    if (request.msg == "update") {
+        cursor();
+        trail();
+    }
+});
 
 cursor();
 trail();
-
 
 function cursor() {
     chrome.storage.sync.get('option', function (obj) {
@@ -178,64 +177,31 @@ function trail() {
             })
         }
         else if (obj['trail'] === "osu") {
-            const dots = [],
-                mouse = {
-                    x: 0,
-                    y: 0
-                };
-            const Dot = function () {
-                this.x = 0;
-                this.y = 0;
-                this.node = (function () {
-                    const n = document.createElement("div");
-                    n.className = "trail";
-                    n.style.position = "absolute";
-                    n.style.zIndex = '1000';
-                    n.style.height = "28px";
-                    n.style.width = "28px";
-                    n.style.borderRadius = "14px";
-                    n.style.background = "#ffffff";
-                    n.style.boxShadow = "0px 0px 20px 5px #FFEB21";
-                    n.style.pointerEvents = "none";
-                    document.body.appendChild(n);
-                    return n;
-                }());
-            };
-            const trail = document.getElementsByClassName('trail');
-            Dot.prototype.draw = function () {
-                this.node.style.left = this.x + "px";
-                this.node.style.top = this.y + "px";
-            };
-            for (let i = 0; i < 12; i++) {
-                const d = new Dot();
-                dots.push(d);
-            }
-
-            function draw() {
-                let x = mouse.x,
-                    y = mouse.y;
-                dots.forEach(function (dot, index, dots) {
-                    const nextDot = dots[index + 1] || dots[0];
-                    dot.x = x;
-                    dot.y = y;
-                    dot.draw();
-                    x += (nextDot.x - dot.x) * .55;
-                    y += (nextDot.y - dot.y) * .55;
-
-                });
-            }
-
-            addEventListener("mousemove", function (event) {
-                mouse.x = event.pageX;
-                mouse.y = event.pageY;
+            document.addEventListener('mousemove', function osu(event) {
+                let curX = event.pageX;
+                let curY = event.pageY;
+                let width = 28;
+                // noinspection JSSuspiciousNameCombination
+                let item = document.createElement('div');
+                item.style.position = 'absolute';
+                item.style.display = 'inline-block';
+                item.style.borderRadius = '50%';
+                item.style.margin = '4px';
+                item.style.pointerEvents = 'none';
+                item.style.boxShadow = "0px 0px 7px 5px #FFEB21";
+                item.style.left = String(curX) + "px";
+                item.style.top = String(curY) + "px";
+                item.style.width = String(width) + "px";
+                item.style.height = String(width) + "px";
+                item.style.zIndex = "100000";
+                item.style.backgroundColor = "#FFEB21";
+                setTimeout(function () {
+                    item.style.transition = 'opacity 1s, transform 1s';
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.4, 0.4)';
+                }, 50);
+                document.body.appendChild(item);
             });
-
-            function animate() {
-                draw();
-                requestAnimationFrame(animate);
-            }
-
-            animate();
         }
         else if (obj['trail'] === "Tfairy") {
             (function fairyDustCursor() {

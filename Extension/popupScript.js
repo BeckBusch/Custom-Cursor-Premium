@@ -2,7 +2,6 @@
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-98900189-6']);
 _gaq.push(['_trackPageview']);
-
 (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = 'https://ssl.google-analytics.com/ga.js';
@@ -11,7 +10,7 @@ _gaq.push(['_trackPageview']);
 })();
 //google analyitics end
 
-//varibles start
+//variables start
 custom = "";
 opt = document.getElementsByClassName("gotoOptions");
 buts = document.getElementsByClassName('curChoice');
@@ -19,10 +18,10 @@ chosen = document.getElementsByClassName('chosen');
 colButs = document.getElementsByClassName('colorButton');
 trails = document.getElementsByClassName('trailsButton');
 link = document.getElementsByClassName('links');
-//varibles end
+//variables end
 
-//eventlisners start
-//class
+//eventlisteners start
+// listener by class
 for (i=0; i < buts.length; i ++){
     buts[i].addEventListener('click', select, true)
 }
@@ -35,22 +34,19 @@ for (i=0; i<trails.length; i++){
 for (i=0; i<opt.length; i++) {
     opt[i].addEventListener('click', gotoOptions)
 }
-
-//trail
+// by id
 document.getElementById('color').addEventListener("change", trailCol);
 document.getElementById('trail-none').addEventListener('click', trailNone);
 document.getElementById('size-slider').addEventListener('change',trailSize);
 document.getElementById("trail-dot").addEventListener('click', trailDot);
-//id
 document.getElementById("default").addEventListener('click', select, true);
 document.getElementById('trail-none-top').addEventListener('click', trailNone);
-
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("other").addEventListener('click', other);
 document.getElementById("other2").addEventListener('click', imgurUp);
+document.getElementById('options-tab').addEventListener('click', gotoOptions)
 //eventlisners end
 
-//functions start
 function update() {
     chrome.tabs.query({}, function (tabs) {
         for(i=0; i<tabs.length; i++){
@@ -103,6 +99,7 @@ function trailDot () {
     document.getElementById("trail-result").value = "Saved Option as: " + selected;
     update();
 }
+
 function trailSize(){
     sizeValue = this.value;
     demo = document.getElementById("dotTrailDemo");
@@ -113,6 +110,7 @@ function trailSize(){
     document.getElementById("trail-result").value = "Saved Size as: " + String(sizeValue);
     update();
 }
+
 function trailCol(){
     selectedCol = this.value;
     document.getElementById("dotTrailDemo").style.backgroundColor = selectedCol;
@@ -120,18 +118,6 @@ function trailCol(){
         {"color": selectedCol});
     document.getElementById("trail-result").value = "Saved Color as: " + selectedCol;
     update();
-}
-
-function helpEmail (){
-    chrome.storage.sync.get(function(obj){
-        window.open('mailto:bbusch.developer@gmail.com?subject=Help Email&body=(This stuff helps me solve your problem) ' +
-            ('option: ' + obj.option + ' cursor: ' + obj.cursor + ' color: ' + obj.color + ' size: ' + obj.size));
-    });
-
-}
-
-function gotoOptions(){
-    chrome.runtime.openOptionsPage();
 }
 
 function select() {
@@ -180,4 +166,14 @@ function saveOptions() {
     chrome.storage.sync.set(
         {"option": selection, "link": custom}, function () {
         });
+}
+function helpEmail (){
+    chrome.storage.sync.get(function(obj){
+        window.open('mailto:bbusch.developer@gmail.com?subject=Help Email&body=(This stuff helps me solve your problem) ' +
+            ('option: ' + obj.option + ' cursor: ' + obj.cursor + ' color: ' + obj.color + ' size: ' + obj.size));
+    });
+}
+
+function gotoOptions(){
+    chrome.runtime.openOptionsPage();
 }
