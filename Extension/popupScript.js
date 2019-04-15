@@ -72,6 +72,9 @@ function links() {
         case "90source":
             parent.window.open('https://github.com/tholman/cursor-effects');
             break;
+        case "twitter":
+            parent.window.open('https://twitter.com/CursorCustom');
+            break;
     }
 }
 

@@ -176,33 +176,6 @@ function trail() {
                 animate();
             })
         }
-        else if (obj['trail'] === "osu") {
-            document.addEventListener('mousemove', function osu(event) {
-                let curX = event.pageX;
-                let curY = event.pageY;
-                let width = 28;
-                // noinspection JSSuspiciousNameCombination
-                let item = document.createElement('div');
-                item.style.position = 'absolute';
-                item.style.display = 'inline-block';
-                item.style.borderRadius = '50%';
-                item.style.margin = '4px';
-                item.style.pointerEvents = 'none';
-                item.style.boxShadow = "0px 0px 7px 5px #FFEB21";
-                item.style.left = String(curX) + "px";
-                item.style.top = String(curY) + "px";
-                item.style.width = String(width) + "px";
-                item.style.height = String(width) + "px";
-                item.style.zIndex = "100000";
-                item.style.backgroundColor = "#FFEB21";
-                setTimeout(function () {
-                    item.style.transition = 'opacity 1s, transform 1s';
-                    item.style.opacity = '0';
-                    item.style.transform = 'scale(0.4, 0.4)';
-                }, 50);
-                document.body.appendChild(item);
-            });
-        }
         else if (obj['trail'] === "Tfairy") {
             (function fairyDustCursor() {
                 var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"];
@@ -984,5 +957,32 @@ function trail() {
                 init();
             })();
         }
+        /*else if (obj['trail'] === "osu") {
+            document.addEventListener('mousemove', function osu(event) {
+                console.log(obj['trail']);
+                let curX = event.pageX;
+                let curY = event.pageY;
+                let width = 28;
+                let item = document.createElement('div');
+                item.style.position = 'absolute';
+                item.style.display = 'inline-block';
+                item.style.borderRadius = '50%';
+                item.style.margin = '4px';
+                item.style.pointerEvents = 'none';
+                item.style.boxShadow = "0px 0px 7px 5px #FFEB21";
+                item.style.left = String(curX) + "px";
+                item.style.top = String(curY) + "px";
+                item.style.width = String(width) + "px";
+                item.style.height = String(width) + "px";
+                item.style.zIndex = "100000";
+                item.style.backgroundColor = "#FFEB21";
+                setTimeout(function () {
+                    item.style.transition = 'opacity 1s, transform 1s';
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.4, 0.4)';
+                }, 50);
+                document.body.appendChild(item);
+            });
+        }*/
     });
 }
