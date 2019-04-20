@@ -29,6 +29,43 @@ locations = {
     winston: {a: '17 21', p: '17 21'},
     zarya: {a: '00 46', p: '00 47'},
     zenyatta: {a: '02 07', p: '02 35'},
+    amber: {a: '00 00', p: '05 00'},
+    amethyst: {a: '00 00', p: '05 00'},
+    blue: {a: '00 00', p: '05 00'},
+    bronze: {a: '00 00', p: '05 00'},
+    diamond: {a: '00 00', p: '05 00'},
+    emerald: {a: '00 00', p: '05 00'},
+    gold: {a: '00 00', p: '05 00'},
+    'green-graident': {a: '00 00', p: '05 00'},
+    green: {a: '00 00', p: '05 00'},
+    ingido: {a: '00 00', p: '05 00'},
+    jade: {a: '00 00', p: '05 00'},
+    'light-darkblue': {a: '00 00', p: '05 00'},
+    'light_blue': {a: '00 00', p: '05 00'},
+    lime: {a: '00 00', p: '05 00'},
+    magenta: {a: '00 00', p: '05 00'},
+    opal: {a: '00 00', p: '05 00'},
+    orange: {a: '00 00', p: '05 00'},
+    'pink-gradient': {a: '00 00', p: '05 00'},
+    pink: {a: '00 00', p: '05 00'},
+    pokeball: {a: '00 00', p: '05 00'},
+    purple: {a: '00 00', p: '05 00'},
+    rainbow: {a: '00 00', p: '05 00'},
+    red: {a: '00 00', p: '05 00'},
+    ruby: {a: '00 00', p: '05 00'},
+    sapphire: {a: '00 00', p: '05 00'},
+    silver: {a: '00 00', p: '05 00'},
+    skyblutop: {a: '00 00', p: '05 00'},
+    stripe: {a: '00 00', p: '05 00'},
+    teal: {a: '00 00', p: '05 00'},
+    vader: {a: '00 00', p: '05 00'},
+    'violet-red': {a: '00 00', p: '05 00'},
+    yellow: {a: '00 00', p: '05 00'},
+    'bill-cipher': {a: '23 02', p: '00 00'},
+    'ice-king': {a: '23 02', p: '00 00'},
+    bubblegum: {a: '23 02', p: '00 00'},
+    tardis: {a: '12 00', p: '00 00'},
+
 };
 
 const imgURL = chrome.runtime.getURL("cursors/");
@@ -76,7 +113,7 @@ function cursor() {
 
             for (i = 0; i < items.length; i++) {
                 if (getComputedStyle(items[i]).cursor === 'pointer') {
-                    items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png)" + locaP + ", auto";
+                    items[i].style.cursor = "url(" + imgURL + "pointers/" + obj['option'] + ".png)" + locaP + ", pointer, auto";
                 }
             }
         }

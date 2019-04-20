@@ -1,6 +1,6 @@
 import os
 #change for folder
-path = os.getcwd() + "\\pokemon"
+path = os.getcwd() + "\\featured"
 files = []
 # r=root, d=directories, f = files
 for r, d, f in os.walk(path):

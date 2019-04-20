@@ -44,7 +44,7 @@ document.getElementById('trail-none-top').addEventListener('click', trailNone);
 document.getElementById("helpEmail").addEventListener('click', helpEmail);
 document.getElementById("other").addEventListener('click', other);
 document.getElementById("other2").addEventListener('click', imgurUp);
-document.getElementById('options-tab').addEventListener('click', gotoOptions)
+document.getElementById('options-tab').addEventListener('click', gotoOptions);
 //eventlisners end
 
 function update() {
@@ -170,6 +170,7 @@ function saveOptions() {
         {"option": selection, "link": custom}, function () {
         });
 }
+
 function helpEmail (){
     chrome.storage.sync.get(function(obj){
         window.open('mailto:bbusch.developer@gmail.com?subject=Help Email&body=(This stuff helps me solve your problem) ' +
